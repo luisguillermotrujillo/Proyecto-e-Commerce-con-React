@@ -1,11 +1,14 @@
 import Product from './components/Product'
 import './App.css';
+import Navbar from './components/Navbar'
+import Products from './components/Products'
 
 function App() {
   return (
     <div className="App">
-      <h1>Proyecto: e-Commerce con React</h1>
-      <Product />
+      <Navbar />
+      <Products />
+      <Product /> 
     </div>
   );
 }
